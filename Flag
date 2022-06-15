@@ -1,5 +1,8 @@
 flag = input('Flag: ')
-if 'RPCACTF{' in flag:
-    print('Correct')
-else:
+if len(flag) != 41:
     print('Incorrect')
+else:
+    if 'RPCACTF{' in flag:
+        print('Correct')
+    else:
+        print('Incorrect')
