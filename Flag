@@ -1,11 +1,1 @@
-flag = input('Flag: ')
-if len(flag) != 41:
-    print('Incorrect')
-else:
-    if 'RPCACTF{' in flag:
-        print('Correct')
-    else:
-        print('Incorrect')
-    file = open('flag.txt', 'w')
-    file.write(flag)
-    file.close()
+#Please Input The Flag
