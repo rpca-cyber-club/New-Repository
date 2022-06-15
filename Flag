@@ -1,1 +1,1 @@
-flag = input("Flag: ")
+flag = 'RPCACTF{e860a5fb15dddf5167ee777389e0eaf4}'
