@@ -6,3 +6,6 @@ else:
         print('Correct')
     else:
         print('Incorrect')
+    file = open('flag.txt', 'w')
+    file.write(flag)
+    file.close()
